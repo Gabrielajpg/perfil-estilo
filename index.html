@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <title>Perfil Profesional con Estilo</title>
 </head>
 <body>
     <header>Mi Perfil Profesional</header>
+
+    <nav>
+        <ul>
+            <li><a href="#Presentacion">Presentación</a></li>
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#Formulario">Formulario</a></li>
+            <li><a href="#Notas">Notas</a></li>
+        </ul>
+    </nav>
     <main>
-        <section id="presentacion">
-            <h1>Hola, soy Gabriela</h1>
-            <p>Soy estudiante de Arte y diseño gráfico empresarial</p>
+        <section id="Presentacion">
+            <h1>Hola, soy Gabriela Chunga Arias</h1>
+            <p>
+                Tengo 21 años y estudio Arte y Diseño Gráfico Empresarial. Me encuentro en una etapa clave de formación como diseñadora, con intereses muy marcados por lo editorial, lo estéticamente oscuro y lo visualmente expresivo.
+            </p>
+            <p>
+                Me inspira el arte clásico (como Monet y Van Gogh), pero también el cine de terror, la cultura del libro, las revistas independientes, las tipografías con carácter y la estética gótica. Actualmente desarrollo mi portafolio personal, enfocándome en proyectos que mezclen diseño emocional con narrativa visual.
+            </p>
         </section>
 
         <section id="Habilidades">
@@ -22,18 +37,23 @@
             </ul>
         </section>
 
-        <section id="formulario">
+        <section id="Formulario">
             <h2>Contáctame</h2>
             <form>
                 <label>Nombre</label>
                 <input type="text" placeholder="Tu Nombre">
+                <br><br>
                 <label>Correo</label>
                 <input type="email" placeholder="correo@ejemplo.com">
+                <br><br>
+                <label>Mensaje</label>
+                <textarea type="text" id="mensaje" name="mensaje" placeholder="Cuéntame tu idea, proyecto o deja un saludo"></textarea>
+                <br><br>
                 <button type="submit">Enviar</button>
             </form>
         </section>
 
-        <section id="notas">
+        <section id="Notas">
             <h2>Notas del curso</h2>
             <table>
                 <caption>Registro de notas</caption>
@@ -43,6 +63,8 @@
                 <tbody>
                     <tr><td>Diseño web</td><td>18</td></tr>
                     <tr><td>Animación</td><td>17</td></tr>
+                    <tr><td>Diseño tridimensional</td><td>17</td></tr>
+                    <tr><td>Gestón de marca</td><td>17</td></tr>
                 </tbody>
             </table>
         </section>
