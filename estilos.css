@@ -18,22 +18,22 @@ header {
     color: white;
     padding: 1rem;
     margin-bottom: 2rem;
-    border-radius: 15px;
-    border-bottom: 2px solid #5c1e2c;
+    border-radius: 15vw;
+    border-bottom: 2vw solid #5c1e2c;
 }
 
 nav {
     display: flex;
     justify-content:center;
     margin-bottom: 3rem;
-    text-align: justify;
     color: #fff;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     display: flex;
     gap: 2rem;
+    
 }
 
 nav a {
@@ -41,13 +41,16 @@ nav a {
   color: #e5e5e5;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  position:initial;
-  text-align: center;
+  letter-spacing: 0.1vw;
+  position:initial;  
   }
 
 nav li:hover {
-  background-color: #5c1e2c;
+  
+  border-spacing: 10vw;
+  color: #5c1e2c;
+  border-style:ridge;
+  cursor: pointer;
 }
 
 section {
@@ -56,7 +59,6 @@ section {
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
-  animation: slideUp 1s ease;
 }
 
 section h2,
@@ -89,6 +91,7 @@ form {
 }
 
 form label {
+  display:block;
   margin-top: 1rem;
   font-weight: bold;
 }
@@ -96,10 +99,10 @@ form label {
 form input,
 form textarea {
   background-color: #1c1c1c;
-  border: 1px solid #5a2d3d;
+  border: 0.4vw solid #5a2d3d;
   color: #f1f1f1;
   padding: 0.75rem;
-  border-radius: 5px;
+  border-radius: 0.5vw;
   margin-top: 0.3rem;
 }
 
@@ -107,7 +110,7 @@ form input:focus,
 form textarea:focus {
   outline: none;
   border-color: #a23a52;
-  box-shadow: 0 0 8px rgba(162, 58, 82, 0.5);
+  box-shadow: 0 0 8vw rgba(162, 58, 82, 0.5);
 }
 
 form button {
@@ -118,39 +121,39 @@ form button {
   color: #fff;
   font-weight: bold;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 5vw;
 }
 
 form button:hover {
   background-color: #5c1e2c;
 }
 
-
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
   border: 1px solid #5a2d3d;
+  table-layout: auto;
 }
 
 caption {
   width: 100%;
-  border-collapse: collapse;
   margin-top: 1rem;
-  border: 1px solid #5a2d3d;
+  border: 0.1vw solid #5a2d3d;
   color: #a23a52;
 }
 
 th, td {
   padding: 1rem;
-  text-align: left;
-  border-bottom: 1px solid #333;
+  text-align:center;
+  border-bottom: 1px solid #a23a52;
 }
 
 th {
   background-color: #1a1a1a;
   color: #a23a52;
 }
+
 
 footer {
   text-align: center;
