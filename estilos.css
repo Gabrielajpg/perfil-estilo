@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 1.8em;
+    background-color: #2196f3;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+habilidades ul {
+    list-style: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#habilidades li {
+    background-color: #e3f2fd;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#habilidades li:hover {
+background-color: #bbdefb;
+}
